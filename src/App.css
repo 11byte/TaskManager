@@ -1,7 +1,15 @@
+body {
+  background-color: rgb(0, 25, 37);
+}
 .App {
   text-align: center;
 }
-
+header {
+  width: auto;
+  border-radius: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
