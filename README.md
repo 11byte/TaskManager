@@ -25,11 +25,11 @@ Launch Process:
 Project Implementation:
 ![Screenshot 2024-11-16 003227](https://github.com/user-attachments/assets/bee0ca94-f95c-4461-9bd6-e4988191d964)
 <br><br>
-Add a Task
-<img src="https://github.com/user-attachments/assets/e457ed3c-b261-48bc-b352-7386a345b5c4" alt="addTask" /><br><br>
-Mark a Task as Completed
-<img src="https://github.com/user-attachments/assets/a71faf16-e69a-49ce-b485-b2e7fa27a2c8" alt="checkTask" /><br><br>
-Sort Task by Priority
-<img src="https://github.com/user-attachments/assets/dbf4d629-3888-4a94-a23e-5ecb358a74bb" alt="TaskPriority" /><br><br>
-Search a Task
+Add a Task <br><br>
+<img src="https://github.com/user-attachments/assets/e457ed3c-b261-48bc-b352-7386a345b5c4" alt="addTask" /><br><br><br>
+Mark a Task as Completed <br><br>
+<img src="https://github.com/user-attachments/assets/a71faf16-e69a-49ce-b485-b2e7fa27a2c8" alt="checkTask" /><br><br><br>
+Sort Task by Priority <br><br>
+<img src="https://github.com/user-attachments/assets/dbf4d629-3888-4a94-a23e-5ecb358a74bb" alt="TaskPriority" /><br><br><br>
+Search a Task <br><br>
 <img src="https://github.com/user-attachments/assets/9ec4e78e-7d16-4851-8eef-f79c2a980014" alt="TaskSearch" />
