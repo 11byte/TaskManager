@@ -50,7 +50,7 @@ function Tasks() {
 
   const btnStyle = {
     color: "aliceblue",
-    transition: "all 0.38s ease",
+    transition: "all 0.4s ease",
     height: "60px",
     width: "60px",
     backgroundColor: "",

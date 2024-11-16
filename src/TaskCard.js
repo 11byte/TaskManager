@@ -78,6 +78,16 @@ function TaskCard({ keyItem, value, priority, tag, setTasks }) {
           {value}
         </h3>
         <div
+          onMouseEnter={(e) => {
+            e.currentTarget.style.backgroundImage =
+              "linear-gradient(to bottom, #B22234, #DC143C)";
+            e.currentTarget.style.color = "white";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = "cyan";
+            e.currentTarget.style.backgroundImage =
+              "linear-gradient(to bottom, rgba(0, 128, 128, 0.3), rgba(0, 255, 255, 0.3))";
+          }}
           onClick={(keyItem) => {
             deleteTask();
           }}
@@ -85,6 +95,7 @@ function TaskCard({ keyItem, value, priority, tag, setTasks }) {
             position: "absolute",
             top: "45px",
             right: "-50px",
+            transition: "all 0.5s ease",
             color: "cyan",
             fontSize: "40px",
             borderRadius: "80px",
@@ -93,7 +104,7 @@ function TaskCard({ keyItem, value, priority, tag, setTasks }) {
             backdropFilter: "blur(30px)",
             cursor: "pointer",
             boxShadow: "-5px 0px 2px rgba(0, 20, 20)",
-            background:
+            backgroundImage:
               "linear-gradient(to bottom, rgba(0, 128, 128, 0.3), rgba(0, 255, 255, 0.3))",
           }}
         >
