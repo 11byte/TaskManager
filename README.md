@@ -3,11 +3,17 @@ A fully functional Task manager made using REACT.js
 
 Application and Functionality:
   1.Create/Add new Tasks
+  
   2.Attatch Priority and Tags to the Tasks
+  
   3.Search Tasks using their title
+  
   4.Delete Tasks
+  
   5.Sort Tasks based on their priority (Low-High / High-Low)
+  
   6.Data Persistance by saving data in local storage
+  
   7.Enhanced UI experience with smooth Transitions and effects
 
 Project Setup:
