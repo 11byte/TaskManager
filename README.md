@@ -32,4 +32,8 @@ Mark a Task as Completed <br><br>
 Sort Task by Priority <br><br>
 <img src="https://github.com/user-attachments/assets/dbf4d629-3888-4a94-a23e-5ecb358a74bb" alt="TaskPriority" /><br><br><br>
 Search a Task <br><br>
-<img src="https://github.com/user-attachments/assets/9ec4e78e-7d16-4851-8eef-f79c2a980014" alt="TaskSearch" />
+<img src="https://github.com/user-attachments/assets/9ec4e78e-7d16-4851-8eef-f79c2a980014" alt="TaskSearch" /> <br><br><br>
+Delete a task <br><br>
+![DeleteTask](https://github.com/user-attachments/assets/c9c5df8c-00c1-45c9-9ab8-7b386c647b2a)
+
+
