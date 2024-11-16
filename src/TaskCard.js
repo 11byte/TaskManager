@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./taskCard.css";
 function TaskCard({ keyItem, value, priority, tag, setTasks }) {
   var pcolor;
@@ -30,13 +30,30 @@ function TaskCard({ keyItem, value, priority, tag, setTasks }) {
     localStorage.removeItem(keyValue);
   }
 
+  const [isChecked, setIsChecked] = useState(false);
+  const cardRef = useRef(null);
+  function handleCheckChange(event) {
+    setIsChecked(event.target.checked);
+  }
+
+  useEffect(() => {
+    console.log("ischeckedAfter", isChecked);
+
+    if (isChecked) {
+      cardRef.current.style.opacity = "0.6";
+
+      cardRef.current.querySelector("h3").style.textDecoration = "line-through";
+    } else {
+      cardRef.current.style.opacity = "1";
+      cardRef.current.querySelector("h3").style.textDecoration = "";
+    }
+  }, [isChecked]);
   return (
-    <div style={cardStyle}>
-      {/* <h3>
-        {keyItem} {value} {priority} {tag}
-      </h3> */}
+    <div ref={cardRef} className="card" style={cardStyle}>
       <div style={{ position: "relative" }}>
         <input
+          checked={isChecked}
+          onChange={handleCheckChange}
           className="custom-checkbox"
           id="chkbox"
           type="checkbox"
