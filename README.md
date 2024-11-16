@@ -25,11 +25,19 @@ Launch Process:
 Project Implementation:
 ![Screenshot 2024-11-16 003227](https://github.com/user-attachments/assets/bee0ca94-f95c-4461-9bd6-e4988191d964)
 
-
+Add a Task
 ![addTask](https://github.com/user-attachments/assets/e457ed3c-b261-48bc-b352-7386a345b5c4)
+
+Mark a Task as Completed
 ![checkTask](https://github.com/user-attachments/assets/a71faf16-e69a-49ce-b485-b2e7fa27a2c8)
+
+Sort Task by Priority
 ![TaskPriority](https://github.com/user-attachments/assets/dbf4d629-3888-4a94-a23e-5ecb358a74bb)
+
+Search a Task
 ![TaskSearch](https://github.com/user-attachments/assets/9ec4e78e-7d16-4851-8eef-f79c2a980014)
+
+
 
 
 
